@@ -1,4 +1,4 @@
-Refleksi Modul 8
+# Refleksi Modul 8
 1. - Unary melibatkan satu `request` dan satu `response`, sehingga cocok untuk transaksi sederhana yang sekali pakai. Contoh skenarionya adalah permintaan identitas pengguna, dimana respon yang diberikan akan berisi seluruh data diri pengguna sekaligus.
    - Server Streaming melibatkan satu `request` dan beberapa `response` sehingga cocok untuk data feed atau pagination. Contoh skenarionya adalah permintaan riwayat transaksi pengguna dalam pagination 10, dimana respon akan mengirimkan riwayat transaksi 10 demi 10.
    - Bidirectional Streaming melibatkan beberapa `request` dan beberapa `response` sehingga cocok untuk transaksi data yang terus menerus. Contoh skenarionya adalah sistem chatting dimana request terus menerus dibuat dan diteruskan ke server sebelum dilanjutkan sebagai response pada pengguna yang lain tanpa memutus koneksi.
